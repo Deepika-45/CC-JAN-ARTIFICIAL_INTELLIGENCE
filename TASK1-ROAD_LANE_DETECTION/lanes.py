@@ -57,7 +57,7 @@ combo_image=cv2.addWeighted(lane_image,0.8,line_image,1,1)
 cv2.imshow('result',combo_image)
 cv2.waitKey(0)
 '''
-cap =cv2.VideoCapture("road-lane-line-detection\\test_video.mp4") 
+cap =cv2.VideoCapture("test_video (1).mp4") 
 while(cap.isOpened()):
     _, frame=cap.read()
     canny_image=canny(frame)
